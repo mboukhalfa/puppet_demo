@@ -3,7 +3,7 @@
 
 # Create a docker node 
 ### Create Centos container
-`sudo apt-get install openvswitch-switch`
+`sudo docker run --name webserver --hostname webserver -ti centos`
 ### Add Puppet-master hostname
 `vi etc/hosts`
 
