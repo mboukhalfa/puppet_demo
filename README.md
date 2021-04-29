@@ -42,5 +42,5 @@ server = mosaic-vm
 
 ### Sign certificate on Puppet-master
 
- `puppetserver ca sign --all`
+ `sudo puppetserver ca sign --all`
  
