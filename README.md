@@ -29,13 +29,11 @@
 ### Config agent
 `vim /etc/puppetlabs/puppet/puppet.conf`
 
-`
+```
 [main]
-
 certname = server1
-
 server = mosaic-vm
-`
+```
 
 
 ### Test the agent
