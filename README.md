@@ -4,6 +4,8 @@
 # Create a docker node 
 ### Create Centos container
 `sudo docker run --name webserver --hostname webserver -ti centos`
+`sudo docker run --name server1 --hostname server1  -it -d  --tmpfs /tmp --tmpfs /run --tmpfs /run/lock -v /sys/fs/cgroup:/sys/fs/cgroup:ro jrei/systemd-ubuntu`
+
 ### Add Puppet-master hostname
 `vi etc/hosts`
 
