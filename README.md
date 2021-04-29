@@ -24,9 +24,8 @@
 
 `dpkg -i puppet6-release-bionic.deb`
 
-`apt update`
+`apt update; apt install -y puppet-agent`
 
-`apt install -y puppet-agent`
 
 ### Config agent
 `vim /etc/puppetlabs/puppet/puppet.conf`
