@@ -17,8 +17,26 @@
 `rpm -Uvh https://yum.puppet.com/puppet6-release-el-7.noarch.rpm`
 
 `yum install -y puppet-agent`
+
+`wget https://apt.puppetlabs.com/puppet6-release-bionic.deb`
+
+`dpkg -i puppet6-release-bionic.deb-bionic.deb`
+
+`apt update`
+
+`apt install -y puppet-agent`
+
+### Config agent
+`vim /etc/puppetlabs/puppet/puppet.conf`
+
 ### Test the agent
 `/opt/puppetlabs/bin/puppet agent --test`
+
+`
+[main]
+certname = server1
+server = mosaic-vm
+`
 
 ### Sign certificate on Puppet-master
 
