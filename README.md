@@ -20,7 +20,7 @@
 
 `wget https://apt.puppetlabs.com/puppet6-release-bionic.deb`
 
-`dpkg -i puppet6-release-bionic.deb-bionic.deb`
+`dpkg -i puppet6-release-bionic.deb`
 
 `apt update`
 
